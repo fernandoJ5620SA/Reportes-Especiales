@@ -1,5 +1,44 @@
-$(document).ready(function () {
-    $("#tableVentas").DataTable({
+<script id= "PaintTbody">
+$(document).ready(function() {
+          $('#tableVentas').DataTable
+          (
+            {
+              "ajax":
+              {
+                  "url": "BackEnd/Consultation.php",
+                  "dataSrc":""
+              },
+              "columns":
+              [
+                  {"data": "IdVentas"},
+                  {"data": "Folio"},
+                  {"data": "Fecha"},
+                  {"data": "IdClientes"},
+                  {"data": "IdProductos"},
+              ]  
+            },
+          )
+      });
+</script>
+    $(document).ready(function() {
+      $('#tableVentas').DataTable
+        (
+          {
+            dom:'Bfrtip',
+              buttons:
+              [
+                'copy', 'csv', 'excel','pdf','print'
+              ]
+          },
+        
+        );
+        
+  });
+
+
+
+  $(document).ready(function () {
+    $("#example").DataTable({
       scrollY: true,
       scrollX: true,
       language: {

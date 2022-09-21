@@ -8,41 +8,30 @@ header{
     background: linear-gradient(to right, #4a00e0, #baec46);
 
 }
-table tableVentas {
+div table tableVentas {
     background-color: #c177ee !important;
     color: white;
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    
   }
 
   table > tbody > tr > td {
     vertical-align: middle !important;
   }
-  tbody > thead {
-    max-width: 100%;
-    height: auto;
-  }
+
   thead {
     color: rgb(250, 248, 248);
     background-color: #8e2de2;
   }
   /*Resposive table*/
   div.container {
-    position: relative !important;
-    scroll-snap-align: inline;
+    position: absolute !important;
     max-width: 100%;
-    font-size: 11px;
   }
-  div.dataTables_wrapper {
-    margin: auto;
-  }
+
   
   .btn-grup,
   .btn-grup-vertical {
     position: absolute !important;
-  }
-  
-  a.table table-striped table-bordered {
-    display: inline-block;
-    margin-bottom: 0.5em;
   }

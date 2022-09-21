@@ -1,5 +1,5 @@
 <?php
-include_once '../baseDeDatos/conexion.php';
+include_once '../BackEnd/DataBases/Connexion.php';
 $objeto = new Conexion();
 $conexion = $objeto->Conectar();
 
