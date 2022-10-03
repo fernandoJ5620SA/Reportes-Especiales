@@ -1,7 +1,7 @@
 <?php
 class Conexion{
     public static function Conectar() {        
-        define('servidor', '127.0.0.1');
+        define('servidor', 'localhost:3309');
         define('nombre_bd', 'basedatos_xenio');
         define('usuario', 'root');
         define('password', '');					        

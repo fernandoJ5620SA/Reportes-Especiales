@@ -1,13 +1,14 @@
 table.dataTable thead {
     background: linear-gradient(to right, #4A00E0, #8E2DE2);
     color:white;
+    size-adjust: 100%;
 }
 header{
     background-color: #8e2de2;
     background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
     background: linear-gradient(to right, #4a00e0, #baec46);
-
 }
+
 div table tableVentas {
     background-color: #c177ee !important;
     color: white;
@@ -31,7 +32,4 @@ div table tableVentas {
   }
 
   
-  .btn-grup,
-  .btn-grup-vertical {
-    position: absolute !important;
-  }
+  
